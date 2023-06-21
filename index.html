@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Number Guessing Game</title>
+
+	<style>
+		body {
+			font-family: sans-serif;
+			width: 50%;
+			max-width: 800px;
+			min-width: 480px;
+			margin: 0 auto;
+		}
+	</style>
+</head>
+
+<body>
+	<h1>Guess The Number</h1>
+	<p>
+		We have selected a random number
+		between 1 - 10. See if you can
+		guess it.
+	</p>
+    <p>You Have <span class="chance">0</span> of <span class="maxChance">3</span> Chances</p>
+	<div class="form">
+		<label for="guessField">
+			Enter a guess:
+		</label>
+		
+		<input type="text" id="guessField"
+			class="guessField">
+		
+		<input type="submit" value="Submit guess"
+			class="guessSubmit" id="submitguess">
+	</div>
+    <script src="script.js"></script>
+</body>
+</html>
