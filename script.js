@@ -4,7 +4,6 @@ let maxChance = 3
 let choised = []
 function selectRandomNumber() {
     randomNumber = Math.ceil(Math.random() * 10)
-    console.log(randomNumber)
     // console.log(userChoise)
     document.querySelector(".guessSubmit").addEventListener("click", submit)
 }
